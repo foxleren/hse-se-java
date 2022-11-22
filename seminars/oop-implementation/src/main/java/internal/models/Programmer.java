@@ -12,7 +12,6 @@ public class Programmer extends Employee implements Gradable {
         System.out.printf("%s coding...\n", fullName);
     }
 
-    @Override
     public void IncreaseSalary() {
         salary *= 2;
     }
